@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/04/06/HTTP%E5%B8%B8%E8%A7%81%E7%8A%B6%E6%80%81%E7%A0%81/</loc>
+    <lastmod>2017-04-06T13:16:21.024Z</lastmod>
+    <data>
+        <display>
+        <title>HTTP常见错误号码</title>
+        <pubTime>2017-04-06T12:18:31.000Z</pubTime>
+        
+        <tag>Http</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/04/06/HTTP%E5%8D%8F%E8%AE%AE%E4%B8%AD%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2017-04-06T12:54:53.263Z</lastmod>
+    <data>
+        <display>
+        <title>HTTP协议中请求方法</title>
+        <pubTime>2017-04-06T12:17:40.000Z</pubTime>
+        
+        <tag>Http</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/03/16/Ubuntu%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2017-03-16T14:30:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu主题美化</title>
+        <pubTime>2017-03-16T14:04:16.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/01/30/Smarty%E4%BD%BF%E7%94%A8%E6%A8%A1%E6%9D%BF/</loc>
+    <lastmod>2017-01-30T10:42:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>Smarty使用模板</title>
+        <pubTime>2017-01-30T10:34:28.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/01/28/CI%E6%A1%86%E6%9E%B6%E4%B8%8ESmarty%E6%95%B4%E5%90%88/</loc>
+    <lastmod>2017-01-29T05:59:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>CI框架与Smarty整合</title>
+        <pubTime>2017-01-28T14:40:10.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>CI</tag>
+         
+        <tag>smarty</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/01/22/nginx%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2017-01-22T14:27:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Nginx反向代理</title>
+        <pubTime>2017-01-22T13:47:26.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>ubuntu</tag>
+         
+        <tag>nginx</tag>
+         
+        <tag>apache</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/01/22/sublime%E8%BE%93%E5%85%A5%E4%B8%AD%E6%96%87%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2017-01-22T14:04:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime text2 输入中文问题</title>
+        <pubTime>2017-01-22T04:51:39.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/01/blog/</loc>
+    <lastmod>2017-01-22T14:03:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu用hexo搭建博客方法</title>
+        <pubTime>2016-10-01T08:24:40.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>node.js</tag>
+         
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/10/spider/</loc>
+    <lastmod>2017-01-22T04:58:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>我的第一个网页爬虫</title>
+        <pubTime>2016-10-10T09:58:36.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>爬虫</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/14/Python%E5%9B%BE%E5%BD%A2%E5%BA%93/</loc>
+    <lastmod>2017-01-19T12:07:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python图形库</title>
+        <pubTime>2016-10-14T07:32:27.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>验证码识别</tag>
+         
+        <tag>爬虫</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/15/ftp/</loc>
+    <lastmod>2017-01-19T12:06:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>ftp搭建与使用</title>
+        <pubTime>2016-10-15T08:58:48.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/15/laravel/</loc>
+    <lastmod>2017-01-19T12:04:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>laravel环境搭建</title>
+        <pubTime>2016-10-15T10:01:51.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>laravel</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2017/01/19/%E6%98%9F%E6%9C%9F%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2017-01-19T08:14:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何计算某一天是星期几?</title>
+        <pubTime>2017-01-19T08:01:40.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/11/04/%E7%BD%91%E7%AE%A1%E5%9F%B9%E8%AE%AD%E4%B9%8Bhtml%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2016-11-04T14:32:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>网管培训之html标签</title>
+        <pubTime>2016-11-04T12:34:55.000Z</pubTime>
+        
+        <tag>html</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/22/training/</loc>
+    <lastmod>2016-10-26T06:15:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>网管16级技术部培训教案</title>
+        <pubTime>2016-10-22T12:22:49.000Z</pubTime>
+        
+        <tag>html</tag>
+         
+        <tag>css</tag>
+         
+        <tag>Javascript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://syjs10.github.io/2016/10/15/JS%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2016-10-15T14:52:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>javascript闭包问题</title>
+        <pubTime>2016-10-15T14:10:23.000Z</pubTime>
+        
+        <tag>javascript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
