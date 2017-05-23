@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://syjs10.github.io/2016/10/15/JS%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2017-05-23T13:19:41.158Z</lastmod>
+    <data>
+        <display>
+        <title>javascript闭包问题</title>
+        <pubTime>2016-10-15T14:10:23.000Z</pubTime>
+        
+        <tag>javascript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://syjs10.github.io/2017/05/23/Python%E4%B8%ADclass%E7%BB%A7%E6%89%BFdict%E4%B9%8B%E5%90%8E%E7%9A%84%E5%8F%98%E5%8C%96/</loc>
     <lastmod>2017-05-23T13:12:04.352Z</lastmod>
     <data>
@@ -298,21 +315,4 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://syjs10.github.io/2016/10/15/JS%E9%97%AD%E5%8C%85/</loc>
-    <lastmod>2016-10-15T14:52:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>javascript闭包问题</title>
-        <pubTime>2016-10-15T14:10:23.000Z</pubTime>
-        
-        <tag>javascript</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>

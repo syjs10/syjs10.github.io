@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://syjs10.github.io/2016/10/15/JS%E9%97%AD%E5%8C%85/</loc>
+    
+    <lastmod>2017-05-23T13:19:41.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://syjs10.github.io/2017/05/23/Python%E4%B8%ADclass%E7%BB%A7%E6%89%BFdict%E4%B9%8B%E5%90%8E%E7%9A%84%E5%8F%98%E5%8C%96/</loc>
     
     <lastmod>2017-05-23T13:12:04.352Z</lastmod>
@@ -124,13 +131,6 @@
     <loc>http://syjs10.github.io/404/index.html</loc>
     
     <lastmod>2016-10-15T14:56:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://syjs10.github.io/2016/10/15/JS%E9%97%AD%E5%8C%85/</loc>
-    
-    <lastmod>2016-10-15T14:52:00.000Z</lastmod>
     
   </url>
   
