@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://syjs10.github.io/2017/07/31/Ubunut%E7%9A%84Apache2%E5%BC%80%E5%90%AFRewirte%E6%A8%A1%E5%9D%97/</loc>
+    <lastmod>2017-07-31T05:04:02.864Z</lastmod>
+    <data>
+        <display>
+        <title>Ubunut的Apache2开启Rewirte模块</title>
+        <pubTime>2017-07-31T04:47:59.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>ubuntu</tag>
+         
+        <tag>apache</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://syjs10.github.io/2017/07/11/MySQL%E7%B4%A2%E5%BC%95/</loc>
     <lastmod>2017-07-11T15:58:23.147Z</lastmod>
     <data>
@@ -156,9 +177,9 @@
          
         <tag>ubuntu</tag>
          
-        <tag>nginx</tag>
-         
         <tag>apache</tag>
+         
+        <tag>nginx</tag>
          
          
            
