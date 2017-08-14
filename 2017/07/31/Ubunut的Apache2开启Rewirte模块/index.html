@@ -100,7 +100,7 @@
 <meta property="og:url" content="http://syjs10.github.io/2017/07/31/Ubunut的Apache2开启Rewirte模块/index.html">
 <meta property="og:site_name" content="Js'blog">
 <meta property="og:description" content="最近在写一个自己的PHP框架,写到路由类的时候遇到了一个坑,就是Rewrite模块开启问题….">
-<meta property="og:updated_time" content="2017-07-31T05:04:02.864Z">
+<meta property="og:updated_time" content="2017-08-14T09:29:52.845Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubunut的Apache2开启Rewirte模块">
 <meta name="twitter:description" content="最近在写一个自己的PHP框架,写到路由类的时候遇到了一个坑,就是Rewrite模块开启问题….">
@@ -341,9 +341,9 @@
 </blockquote>
 <a id="more"></a>
 <h2 id="以下是我综合网上方法总结的解决办法"><a href="#以下是我综合网上方法总结的解决办法" class="headerlink" title="以下是我综合网上方法总结的解决办法:"></a>以下是我综合网上方法总结的解决办法:</h2><p>在mods-available中可以看到名为rewrite.load的文件</p>
-<h3 id="1-加载以下命令开启Rewrite模块"><a href="#1-加载以下命令开启Rewrite模块" class="headerlink" title="1.加载以下命令开启Rewrite模块"></a>1.加载以下命令开启Rewrite模块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo a2enmode rewrite</div></pre></td></tr></table></figure>
+<h3 id="1-加载以下命令开启Rewrite模块"><a href="#1-加载以下命令开启Rewrite模块" class="headerlink" title="1.加载以下命令开启Rewrite模块"></a>1.加载以下命令开启Rewrite模块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo a2enmod rewrite</div></pre></td></tr></table></figure>
 <p>这时候发现mods-enabled目录下生已经成相应的链接</p>
-<h3 id="2-修改Apache的配置文件"><a href="#2-修改Apache的配置文件" class="headerlink" title="2.修改Apache的配置文件"></a>2.修改Apache的配置文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vim /etc/apache2/sites-enabled/000-default</div></pre></td></tr></table></figure>
+<h3 id="2-修改Apache的配置文件"><a href="#2-修改Apache的配置文件" class="headerlink" title="2.修改Apache的配置文件"></a>2.修改Apache的配置文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vim /etc/apache2/apache2.conf</div></pre></td></tr></table></figure>
 <p>将AllowOverride None 修改为 AllowOverride All</p>
 <h3 id="3-重启Apache即可"><a href="#3-重启Apache即可" class="headerlink" title="3.重启Apache即可"></a>3.重启Apache即可</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo /etc/init.d/apache2 restart</div></pre></td></tr></table></figure>
 <h3 id="4-最后要提醒一点-很重要-本人就被这个坑了…"><a href="#4-最后要提醒一点-很重要-本人就被这个坑了…" class="headerlink" title="4.最后要提醒一点(很重要,本人就被这个坑了…)"></a>4.最后要提醒一点(很重要,本人就被这个坑了…)</h3><p>写.htaccess的时候一定注意要是 <em>6个空格</em> 而不是一个tab</p>
