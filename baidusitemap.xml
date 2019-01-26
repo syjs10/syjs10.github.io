@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://syjs10.github.io/2016/10/01/blog/</loc>
+    <lastmod>2019-01-26T19:22:37.951Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu用hexo搭建博客方法</title>
+        <pubTime>2016-10-01T08:24:40.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>node.js</tag>
+         
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://syjs10.github.io/2019/01/27/Ubuntu%E6%90%AD%E5%BB%BA%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2019-01-26T18:37:05.079Z</lastmod>
     <data>
@@ -231,27 +252,6 @@
         <pubTime>2017-01-22T04:51:39.000Z</pubTime>
         
         <tag>ubuntu</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://syjs10.github.io/2016/10/01/blog/</loc>
-    <lastmod>2017-01-22T14:03:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu用hexo搭建博客方法</title>
-        <pubTime>2016-10-01T08:24:40.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>node.js</tag>
-         
-        <tag>hexo</tag>
          
          
            

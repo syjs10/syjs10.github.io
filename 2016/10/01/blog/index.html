@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="Js&#39;blog">
 <meta property="og:description" content="&amp;nbsp;&amp;nbsp;闲来无事本人自己研究了一下如何搭建一个博客,下面与大家分享一下我搭建的过程">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-01-22T14:03:58.000Z">
+<meta property="og:updated_time" content="2019-01-26T19:22:37.951Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu用hexo搭建博客方法">
 <meta name="twitter:description" content="&amp;nbsp;&amp;nbsp;闲来无事本人自己研究了一下如何搭建一个博客,下面与大家分享一下我搭建的过程">
@@ -355,6 +355,7 @@
 </code></pre><p>   注册一个git账号,并在git上建一个仓库 名称为:<strong>用户名</strong>.github.io<br>   配置_config.yml, title啥的自己填, 主要是配置deploy, 注意空格和tab</p>
 <pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo:</span><br><span class="line">    github: git@github.com:用户名/用户名.github.io.git,master</span><br><span class="line">    coding: git@git.coding.net:用户名/用户名.git,master</span><br></pre></td></tr></table></figure>
 </code></pre><p>   hexo g 生成文件<br>   hexo s 本地测试<br>   hexo d 上传到服务器</p>
+<p>   解决GitHub Clone慢 Push慢 Pull慢<br>   解决办法,在host文件中添加两地址<br>   vim /etc/hosts<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">151.101.113.194 github.global.ssl.fastly.net</span><br><span class="line">192.30.253.113 github.com</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
