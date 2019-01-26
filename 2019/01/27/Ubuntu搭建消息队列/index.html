@@ -6,10 +6,10 @@
 
 
 <html class="theme-next mist use-motion" lang="zh-CN">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
@@ -20,8 +20,8 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -39,7 +39,7 @@
 
   
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -73,21 +73,21 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="syjs10, Js" />
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css">
 
 
+  <meta name="keywords" content="syjs10, Js">
 
 
 
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1">
 
 
 
@@ -98,15 +98,16 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ubuntu搭建消息队列">
 <meta property="og:url" content="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/index.html">
-<meta property="og:site_name" content="Js'blog">
+<meta property="og:site_name" content="Js&#39;blog">
 <meta property="og:description" content="Ubuntu 16.04 搭建消息队列的一个教程, 通过网上整理的笔记">
-<meta property="og:image" content="http://syjs10.github.io/1.png">
-<meta property="og:image" content="http://syjs10.github.io/2.png">
-<meta property="og:updated_time" content="2019-01-26T18:01:45.959Z">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/1.png">
+<meta property="og:image" content="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/2.png">
+<meta property="og:updated_time" content="2019-01-26T18:37:05.079Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu搭建消息队列">
 <meta name="twitter:description" content="Ubuntu 16.04 搭建消息队列的一个教程, 通过网上整理的笔记">
-<meta name="twitter:image" content="http://syjs10.github.io/1.png">
+<meta name="twitter:image" content="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/1.png">
 
 
 
@@ -134,7 +135,7 @@
 
 
 
-  <link rel="canonical" href="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/"/>
+  <link rel="canonical" href="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/">
 
 
 
@@ -143,7 +144,7 @@
   <title>Ubuntu搭建消息队列 | Js'blog</title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
 
@@ -179,13 +180,13 @@
   <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Js'blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -215,7 +216,7 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
           </a>
@@ -225,7 +226,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
             
             归档
           </a>
@@ -235,7 +236,7 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
             
             标签
           </a>
@@ -269,16 +270,16 @@
   
   
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://syjs10.github.io/2019/01/27/Ubuntu搭建消息队列/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="JS">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Js'blog">
     </span>
 
@@ -321,7 +322,7 @@
           
             <span class="post-meta-divider">|</span>
             <span class="page-pv"><i class="fa fa-file-o">本文总浏览量</i>
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
             </span>
           
 
@@ -343,20 +344,20 @@
 <p>Ubuntu 16.04 搭建消息队列的一个教程, 通过网上整理的笔记</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="一-安装RabbitMQ"><a href="#一-安装RabbitMQ" class="headerlink" title="一.安装RabbitMQ"></a>一.安装RabbitMQ</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="string">"deb https://dl.bintray.com/rabbitmq/debian xenial main"</span> | sudo tee /etc/apt/sources.list.d/bintray.rabbitmq.list</div><div class="line">wget -O - <span class="string">'https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc'</span> | sudo apt-key add -</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install rabbitmq-server</div></pre></td></tr></table></figure>
+<h2 id="一-安装RabbitMQ"><a href="#一-安装RabbitMQ" class="headerlink" title="一.安装RabbitMQ"></a>一.安装RabbitMQ</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"deb https://dl.bintray.com/rabbitmq/debian xenial main"</span> | sudo tee /etc/apt/sources.list.d/bintray.rabbitmq.list</span><br><span class="line">wget -O - <span class="string">'https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc'</span> | sudo apt-key add -</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install rabbitmq-server</span><br></pre></td></tr></table></figure>
 <h2 id="二-配置并启动RabbitMQ"><a href="#二-配置并启动RabbitMQ" class="headerlink" title="二.配置并启动RabbitMQ"></a>二.配置并启动RabbitMQ</h2><p>1.启动消息队列</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service rabbitmq-server start</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service rabbitmq-server start</span><br></pre></td></tr></table></figure>
 <p>2.查看RabbitMQ</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">service rabbitmq-server status</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service rabbitmq-server status</span><br></pre></td></tr></table></figure>
 <p><img src="1.png" alt="img"></p>
 <p>3.解决User can only log in via localhost(说白了就是解远端登录问题)</p>
 <p>这个时候，需要新建/etc/rabbitmq/rabbitmq.config文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">service rabbitmq-server stop</div><div class="line">vim /etc/rabbitmq/rabbitmq.config</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">service rabbitmq-server stop</span><br><span class="line">vim /etc/rabbitmq/rabbitmq.config</span><br></pre></td></tr></table></figure>
 <p>文件内写入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[</div><div class="line">&#123;rabbit, [&#123;tcp_listeners, [5672]&#125;, &#123;loopback_users, [&quot;admin&quot;]&#125;]&#125;</div><div class="line">].</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">&#123;rabbit, [&#123;tcp_listeners, [5672]&#125;, &#123;loopback_users, [&quot;admin&quot;]&#125;]&#125;</span><br><span class="line">].</span><br></pre></td></tr></table></figure>
 <p>这样就兼容远端访问了.</p>
-<p>4.重新启动消息队列,并且开启web访问<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">service rabbitmq-server start</div><div class="line">rabbitmq-plugins <span class="built_in">enable</span> rabbitmq_management</div></pre></td></tr></table></figure></p>
-<p>本地登录 <a href="http://localhost:15672" target="_blank" rel="external">http://localhost:15672</a><br>远端登录 <a href="http://外网ip:15672" target="_blank" rel="external">http://外网ip:15672</a></p>
+<p>4.重新启动消息队列,并且开启web访问<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">service rabbitmq-server start</span><br><span class="line">rabbitmq-plugins <span class="built_in">enable</span> rabbitmq_management</span><br></pre></td></tr></table></figure></p>
+<p>本地登录 <a href="http://localhost:15672" target="_blank" rel="noopener">http://localhost:15672</a><br>远端登录 http://外网ip:15672</p>
 <p>用户名: guest<br>密码: guest</p>
 <p><img src="2.png" alt="img"></p>
 
@@ -451,7 +452,7 @@
 
       
         <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
@@ -461,10 +462,8 @@
       
 
       <section class="site-overview sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
-               alt="JS" />
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="JS">
           <p class="site-author-name" itemprop="name">JS</p>
            
               <p class="site-description motion-element" itemprop="description"></p>
@@ -554,7 +553,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <div class="copyright">
   
   &copy; 
   <span itemprop="copyrightYear">2019</span>
